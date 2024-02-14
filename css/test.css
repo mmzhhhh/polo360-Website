@@ -1,0 +1,14 @@
+.floated-element {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin-right: 20px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

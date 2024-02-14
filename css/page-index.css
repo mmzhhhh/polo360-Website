@@ -1,0 +1,317 @@
+/*主页样式表*/
+body{
+    background: url("../img/bd-bg.png") repeat-x;
+}
+
+/*解决高度塌陷问题clearfix*/
+.clearfix:before,
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*触发 IE 浏览器的 hasLayout 属性，以解决 IE 浏览器下清除浮动的问题。*/
+.clearfix{
+    zoom: 1;
+}
+
+/*设定整个网页的元素宽度并居中*/
+.w{
+    width: 940px;
+    margin: 0 auto;
+}
+
+/*设置顶部标签栏和Logo*/
+.header{
+    padding-top: 37px;
+    padding-bottom: 46px;
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+.nav{
+    float: right;
+    margin-top: 22px;
+}
+
+.nav li{
+    float: left;
+    border-left: 1px dotted #d6d6d6;
+    padding: 0 10px 8px;
+}
+
+.nav li a{
+    text-decoration: none;
+    font: 14px Georgia bold;
+    color: #666;
+    transition: .5s;
+}
+
+/*悬浮时会放大字体并设置下划线*/
+.nav li a:hover{
+    font:28px "Comic Sans MS";
+    color: black;
+    text-decoration: underline;
+}
+
+.nav li p{
+    font: 11px Tahoma;
+    color: #b7b7b7;
+}
+
+/*设置Bonner样式*/
+.banner{
+    /*设置高度*/
+    height: 356px;
+    width: 960px;
+    background: url("../img/banner/banner_bg.png") no-repeat bottom center;
+    position: relative;
+    /*剪裁溢出的部分*/
+    overflow: hidden;
+}
+
+.banner img{
+    /*设置图片大小相同*/
+    height: 356px;
+    width: 940px;
+}
+
+.banner ul{
+    /*一张照片940，5张照片4700*/
+    /*width:4800px;*/
+    /*为了能够根据li个数多少实时变动宽度，使用javascript*/
+    /*轮播其实就是整个ul向左移动每次移动960px*/
+    position: absolute;
+}
+
+.banner li{
+    /*设置图片向左浮动*/
+    float: left;
+    /*让图片左右之间有间隔10px，设置外边距之后要改ul的宽度*/
+    margin: 0 10px;
+}
+
+/*设置底部导航栏样式*/
+.pointDiv a{
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin-left: 4px;
+    background: url("../img/point.png");
+}
+
+/*设置超链接的悬浮效果*/
+.pointDiv a:hover{
+    background: url("../img/point-active.png");
+}
+
+.pointDiv{
+    position: absolute;
+    top: 314px;
+    left: 15px;
+}
+
+/*设置content部分*/
+.content h1{
+    text-align: center;
+    font: bold 24px Georgia;
+    padding: 6px 0 20px 0;
+    background: url("../img/content_line.png") no-repeat bottom center;
+    margin-bottom: 38px;
+}
+
+.content .pl,.content .cs,.content .uc,
+.contact .sc,.contact .co,.contact .nu{
+    /*全部设置为向左浮动*/
+    float: left;
+    width: 300px;
+}
+
+.content .cs,.contact .co{
+    margin: 0 20px;
+}
+
+.content h2{
+    font: 21px Georgia;
+    color: #11719e;
+}
+
+.content .p_title{
+    font: 12px Helvetica;
+    color: #9e9e9e;
+}
+
+.content .imgDiv{
+    width: 299px;
+    height: 184px;
+    background: url("../img/content_bg.png");
+    margin: 16px 0 10px 0;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.content .p_words{
+    font: 13px Helvetica;
+    color: #3e3e3e;
+    word-spacing: 2px;
+    height: 92px;
+}
+
+.content .lm{
+    display: block;
+    width: 163px;
+    height: 40px;
+    font: 12px/40px Helvetica;
+    text-decoration: none;
+    color: #016999;
+    text-indent: 1em;
+    background: url("../img/btn1.png") no-repeat;
+    margin-bottom: 35px;
+}
+
+/*设置联系栏*/
+.contact{
+    background: url("../img/content_line.png") no-repeat top;
+}
+
+/*设置标题*/
+.contact h2{
+    color: #444;
+    font: 18px/1 Georgia;
+    border-bottom: 1px dashed #d3d3d3;
+    padding: 44px 0 10px 0;
+    margin-bottom: 15px;
+}
+
+/*设置联系栏中的表单项*/
+.contact .txt{
+    width: 276px;
+    height: 33px;
+    line-height: 33px;
+    background: url("../img/input.png") no-repeat;
+    border:none;
+    padding: 0 10px;
+    margin: 0 0 16px 0;
+}
+
+.contact .tarea{
+    width: 276px;
+    height: 114px;
+    background: url("../img/textarea.png");
+    border:none;
+    padding: 10px;
+    margin: 0;
+    /*去除滚动条*/
+    overflow: auto;
+    /*设置文本域不能调整大小*/
+    resize: none;
+}
+
+.contact .btn{
+    width: 163px;
+    height: 32px;
+    background: url("../img/btn2.png");
+    border: none;
+    padding: 0;
+    margin: 11px 0 23px 0;
+    font: 13px Georgia;
+    color: white;
+    text-align: left;
+    text-indent: 1em;
+    /*设置光标效果*/
+    cursor: pointer;
+}
+
+/*设置联系栏的左边栏*/
+.sc .p1{
+    font: 12px/1 Helvetica;
+    color:#444;
+}
+
+.sc .icon{
+    /*去除图片之间的空格*/
+    font-size: 0;
+    margin-top: 4px;
+}
+
+.sc .icon a{
+    margin-right: 6px;
+}
+
+.sc .nl{
+    font: bold 18px/1 "gill sans mt";
+    padding: 34px 0 10px;
+}
+
+/*设置输入框*/
+.sc .txt{
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+/*设置联系栏右侧*/
+.nu img{
+    float: left;
+    margin-right: 8px;
+}
+
+.nu p{
+    font: 12px/1 Helvetica;
+    color:#444;
+    height: 58px;
+    border-bottom: 1px dashed #d3d3d3;
+    margin-bottom: 14px;
+    padding-bottom: 9px;
+}
+
+/*把按钮的位置调整回来*/
+.nu .no-margin{
+    margin-bottom: 0;
+}
+
+/*设置底部*/
+.footer{
+    height: 173px;
+    background: #333;
+    border-top: 10px solid #4c4c4c;
+}
+
+.footer a,.footer p{
+    color: #999;
+    font: 11px Helvetica;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.footer a:hover{
+    font: 33px "Comic Sans MS";
+    color: white;
+    text-decoration: underline;
+}
+
+.footer .copy{
+    float: right;
+    margin-left: 0;
+    margin-right: 23px;
+    display: inline
+}
+
+.footer p{
+    margin-left: 8px;
+    margin-bottom: 6px;
+}
+
+.footer .w{
+    padding-top: 18px;
+}
+
+
+
+
+
+
+
+

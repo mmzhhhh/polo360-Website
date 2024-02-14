@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="418919d1-775c-440f-909c-7b533f16ad18" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/page-index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner/banner01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner/banner_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bd-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/btn1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/btn2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/content_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/content_line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/input.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pic/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/point-active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/rss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/textarea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/yt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/page-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polo360Web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2cI8AbDqO7Y6iYg6vmmrmNzqA4R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/IDEAAllDemo/前端/JavaScript-30days-master",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEAAllDemo\前端\polo360Web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEAAllDemo\前端\polo360Web" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="418919d1-775c-440f-909c-7b533f16ad18" name="更改" comment="" />
+      <created>1707787591597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707787591597</updated>
+      <workItem from="1707787592640" duration="20770000" />
+      <workItem from="1707872698161" duration="13677000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
